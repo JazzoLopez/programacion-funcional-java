@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Animal perro = new Animal() { // clase anonima, las llaves delimitan la clase
 
-            @Override
+            @Override //sobreescritura de metodos
             public void hacerSonido() {
                 System.out.println("Guau xd jaja (Es un ladrido)");
             }
